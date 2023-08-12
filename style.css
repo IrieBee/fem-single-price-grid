@@ -6,6 +6,7 @@
     --clr-neutral-blue: hsl(218, 22%, 67%);
 
     --fs-m: 1rem;
+    --fs-s: 0.65rem;
 
     --fw-m: 400;
     --fw-l: 700;
@@ -30,7 +31,7 @@ body {
 
 
 .attribution { 
-    font-size: 0.625rem; 
+    font-size: var(--fs-s); 
     margin-bottom: 0.5em;
     text-align: center;
 }
