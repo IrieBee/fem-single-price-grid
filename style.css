@@ -26,3 +26,15 @@ body {
     font-size: var(--fs-m);
     font-weight: var(--fw-m);
 }
+
+
+
+.attribution { 
+    font-size: 0.625rem; 
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--clr-primary-yellow); 
+}
