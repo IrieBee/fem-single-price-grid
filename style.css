@@ -1,12 +1,17 @@
 :root {
     --clr-primary-cyan: hsl(179, 62%, 43%);
     --clr-primary-yellow: hsl(71, 73%, 54%);
+    --clr-primary-cyan-light: hsl(179, 62%, 48%);
+    --clr-primary-cyan-dark: hsl(179, 62%, 35%);
 
     --clr-neutral-gray: hsl(204, 43%, 93%);
     --clr-neutral-blue: hsl(218, 22%, 67%);
 
     --fs-m: 1rem;
     --fs-s: 0.65rem;
+    --fs-l: 1.2rem;
+    --fs-xl: 1.5rem;
+    --fs-xxl: 2rem;
 
     --fw-m: 400;
     --fw-l: 700;
@@ -28,7 +33,79 @@ body {
     font-weight: var(--fw-m);
 }
 
+main {
+    border-radius: 0.5rem;
+}
 
+section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    color: var(--clr-primary-cyan);
+    font-size: var(--fs-xl);
+}
+
+h2 {
+    color: var(--clr-primary-yellow);
+    padding: 1em 0;
+    font-size: var(--fs-l);
+}
+
+p {
+    line-height: 1.6;
+}
+
+.subs, .why{
+    color: var(--clr-neutral-gray);
+}
+
+.subs {
+    background-color: var(--clr-primary-cyan);
+}
+
+.why {
+    background-color: var(--clr-primary-cyan-light);
+}
+
+.price {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    /* padding: .75em 0; */
+}
+
+h3 {
+    padding: 1em 0;
+}
+
+h4 {
+    font-size: var(--fs-xxl);
+    font-weight: var(--fw-l);
+}
+
+button {
+    background-color: var(--clr-primary-yellow);
+    color: var(--clr-neutral-gray);
+    font-size: var(--fs-m);
+    font-weight: var(--fw-l);
+    padding: 1em 0;
+    width: 80%;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 0.1em 0.5em 1em var(--clr-primary-cyan-dark);
+    /* margin: 1em auto; */
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 1.6;
+}
 
 .attribution { 
     font-size: var(--fs-s); 
