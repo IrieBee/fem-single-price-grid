@@ -40,7 +40,7 @@ main {
 section {
     width: 90%;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 3rem;
 }
 
 h1 {
@@ -70,6 +70,10 @@ p {
     background-color: var(--clr-primary-cyan-light);
 }
 
+.subs> p {
+    padding: 0.25em 0 1.5em;
+}
+
 .price {
     display: flex;
     gap: 1em;
@@ -92,11 +96,11 @@ button {
     font-size: var(--fs-m);
     font-weight: var(--fw-l);
     padding: 1em 0;
-    width: 80%;
+    width: 90%;
     border-radius: 0.5em;
     border: none;
     box-shadow: 0.1em 0.5em 1em var(--clr-primary-cyan-dark);
-    /* margin: 1em auto; */
+    /* margin: 0 auto; */
 }
 
 ul {
