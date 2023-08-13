@@ -13,11 +13,14 @@ This is a solution to the Single price grid component challenge from Frontend Me
 
   * HTML
   * CSS
+  * Grid
   * Flexbox
 
 ### What I learned
 
 * First mobile version, second - desktop.
+* Use combination of grid and flexbox.
+* For grid to make first row smaller -> grid-template-rows: auto, auto instead of repeat(2, 1fr).
 
 ## Links
 
@@ -26,6 +29,7 @@ This is a solution to the Single price grid component challenge from Frontend Me
 
 ## Useful resources
 
+* https://stackoverflow.com/a/41916816
 
 ## Acknowledgements
 
