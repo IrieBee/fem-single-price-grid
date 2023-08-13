@@ -17,7 +17,7 @@ This is a solution to the Single price grid component challenge from Frontend Me
 
 ### What I learned
 
-* 
+* First mobile version, second - desktop.
 
 ## Links
 
