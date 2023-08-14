@@ -6,6 +6,7 @@
 
     --clr-neutral-gray: hsl(204, 43%, 93%);
     --clr-neutral-blue: hsl(218, 22%, 67%);
+    --clr-neutral-blue-light: hsla(218,22%, 77%, 0.8);
 
     --fs-m: 1rem;
     --fs-s: 0.7rem;
@@ -43,6 +44,7 @@ main {
     border-radius: 0.5rem;
     overflow: hidden;
     margin: auto;
+    box-shadow: 0.5em 0.5em 2.5em var(--clr-neutral-blue-light);
 }
 
 section {
@@ -108,7 +110,6 @@ button {
 
 button:hover, a:hover{
     filter: brightness(110%);
-    /* filter: hue-rotate(25deg); */
     transition-duration: 0.5s;
 }
 
