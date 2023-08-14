@@ -21,7 +21,7 @@ This is a solution to the Single price grid component challenge from Frontend Me
 * First mobile version, second - desktop.
 * Use combination of grid and flexbox.
 * For grid to make first row smaller -> grid-template-rows: auto, auto instead of repeat(2, 1fr).
-* Filter: contrast for hover.
+* Filter: brightness for hover.
 
 ## Links
 
