@@ -7,7 +7,7 @@ This is a solution to the Single price grid component challenge from Frontend Me
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-single-price-grid/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-single-price-grid/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -25,8 +25,8 @@ This is a solution to the Single price grid component challenge from Frontend Me
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-single-price-grid
-* Live Site URL: https://ltsybitsy.github.io/fem-single-price-grid/
+* Solution URL: https://github.com/IrieBee/fem-single-price-grid
+* Live Site URL: https://IrieBee.github.io/fem-single-price-grid/
 
 ## Useful resources
 
